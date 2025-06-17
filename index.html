@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<header>
+    <div class="header-left">
+        <h2>Boris <strong style="color: aqua;">BARBOZA</strong> </h2>
+    </div>
+    <div class="header-right">
+        <nav>
+            <ul class="menu">
+                <li><a href="#acceuil">Acceuil</a></li>
+                <li><a href="#a_propos">A propos</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+ 
+<div id="container">
+    <div id="acceuil">
+        <div class="presentation-text">
+            <p>En route pour devenir un developpeur, je suis <span class="special">Boris</span>, passionné par le monde du Web et du Disign.</p>
+            <button class="submit-btn">Jetez un œil à mes projets</button>
+        </div>
+        <div class="presentation-image">
+            <img src="image.png" width="275" height="275">
+        </div>
+    </div>
+    <div id="a_propos">
+        <h2 class="title">A propos</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Je me nome <span class="special">BARBOZA</span>,passionné de la création des sites Web dynamiques et modernes.</p>
+                <p>Actuellement, je suis étudiant en <span>Génétique biotechnologie et ressouces biologiques</span> puis je m'efforce d'approndir mes compétences en <span>Developpement Web</span> via HTML5, CSS et JavaScript. </p>
+                <p>Ce que je j'aime par dessus tout, c'est de donner vie à mes idées à travers des projets concrets tout en explorant les dernières technologies du Web.</p>
+                <button class="submit-btn"> Cliquez ici pour télécharger mon CV </button>
+            </div>
+
+            <div class="about-image">
+                <img src="moi.png" height="280" width="280" >
+            </div> 
+        </div>
+    </div>
+
+    <div id="projets">
+        <h2 class="title">Mes projets</h2>
+        <div class="projets-list">
+            <div class="projet-item">
+                <p class="description">Page web du restaurant BOBY</p>
+                <p class="compétences">HTML et CSS</p>
+                <button class="submit-btn">Afficher</button>
+            </div>
+            <div class="projet-item">
+                <p class="description">Affiche publicitaire</p>
+                <p class="compétences">HTML, CSS et JavaScript</p>
+                <button class="submit-btn">Afficher</button>
+            </div>
+            <div class="projet-item">
+                <p class="description">Ma prope page Web</p>
+                <p class="compétences">HTML, CSS et JavaScript</p>
+                <button class="submit-btn">Afficher</button>
+            </div>
+        </div> 
+    </div>
+    <div id="competences">
+        <h2 class="title">Compétences</h2>
+        <div id="competence-container">
+            <div class="competence-item">
+                <label>Outils informatiques  </label>
+                <input type="range" name="" id="" value="85">
+                <label for=""> Logiciel d'analyse statistique  </label>
+                <input type="range" name="" id="" value="55">
+                <label for=""> Marketing digital et E-commerce</label>
+                <input type="range" name="" id="" value="60">
+
+            </div>
+            <div class="competence-item">
+                <label>HTML </label>
+                <input type="range" name="" id="" value="90">
+                <label for=""> CSS </label>
+                <input type="range" name="" id="" value="70">
+                <label for=""> JavaScript</label>
+                <input type="range" name="" id="" value="45">
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <h3>Vous avez un <span class="special">Projet en tête?</span>, N'hesitez pas à me <span class="special">Contacter.</span></h3>
+        <form class="contact-form" name="contactForm" >
+            <div class="form-row">
+                <div class="form-group half-width">
+                    <label for="nom"> Nom</label>
+                    <input type="text" name="nom" id="nom">
+                </div>
+                <div class="form-group half-width">  
+                    <label for="prenom"> Prénom</label>
+                    <input type="text" name="prenom" id="prenom">
+                </div>
+            </div>
+            <div class="form-group a">
+                <label for="objet">Objet</label>
+                <input type="text" name="objet" id="objet">
+            </div>
+            <div class="form-group b">
+                <label for="message"> Message </label>
+                <textarea name="message" id="mssage" rows="6"></textarea>
+            </div>
+            <button class="submit-btn">Envoyez</button>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-left">
+        Site réalisé par  <span class="special">Boris BARBOZA</span>  avec HTML, CSS, JavaScript
+
+    </div>
+    <div class="footer-right">
+        Tous droit reserver 2025
+    </div>
+</footer>
+
+<script src="Script.js"></script>
+
+</body>
+</html>
